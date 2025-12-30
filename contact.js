@@ -1,4 +1,3 @@
-<script>
 document.getElementById("contact-form").addEventListener("submit", async (e) => {
   e.preventDefault();
 
@@ -27,4 +26,3 @@ document.getElementById("contact-form").addEventListener("submit", async (e) => 
     status.textContent = "Der opstod en fejl.";
   }
 });
-</script>
